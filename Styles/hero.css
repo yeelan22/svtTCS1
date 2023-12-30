@@ -1,0 +1,105 @@
+.hero-grid{
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    display: grid;
+    gap: 180px;
+    
+    margin-left: 30px;
+    background-color: white;
+    padding: 70px 30px; 
+    background-color: #f8f7f4;
+    
+
+}
+.prest{
+  
+ display: flex;
+ flex-direction: column;
+ gap: 17px;
+ justify-content: center;
+}
+.title{
+    width: 100%;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'DM Serif Display', serif;
+}
+.title span{
+    color: var(--cold-green);
+}
+.desc{
+    color: rgb(70, 67, 67);
+    font-family: 'Overpass', sans-serif;
+}
+.home-classe-img{
+    width: 20rem;
+    height: 30rem;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    
+}
+.plus-infos{
+    text-decoration: none;
+    color: black;
+}
+.notreProjet{
+    background-color:var(--light-green);
+    padding: 20px 100px;
+    border:none;
+    border-radius: 40px;
+    margin-top: 60px;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+.our-image{
+    position: relative;
+    display: inline-block;
+}
+.class-picture-div{
+    position: absolute;
+    background-color: rgb(255, 250, 250, 0.8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 175px;
+    text-align: center;
+}
+.class-picture-div p{
+    margin-top: 20px;
+    font-family: 'Inspiration', cursive;
+    font-size: 50px;
+}
+.tcs-absolute{
+    position: absolute;
+    right: -10px;
+    top: -3px;
+    background-color:var(--light-green);
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+@media (max-width: 990px){
+    .hero-grid{
+      grid-template-columns:  1fr;
+      
+    }
+     
+    .home-classe-img {
+        width: 100%;
+    
+    }
+}
+.class-picture{
+    display: flex;
+     justify-content: center;
+    
+}
+ 
+    
+
+
+    
+ 
+            

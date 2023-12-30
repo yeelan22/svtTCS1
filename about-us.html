@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/effeSerre.css">
+   
+    <link rel="stylesheet" href="Styles/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="header">
+        <!-- the left side of header -->
+        <div class="left-section">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topics.html">Topics</a></li>
+                <li><a href="commmunity.html">Community</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="queezgame.html">Queez</a></li>
+            </ul>
+        </div>
+
+    <!-- the middle side in header -->
+        <div class="middle-section">
+             <img class="logo" src="images/logo.png" alt="">
+        </div>
+
+    <!-- the right side of header -->
+        <div class="right-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="start-button">Get Started</button>
+            <button class="join-button">JOIN</button>
+
+        </div>
+    </div>
+
+
+    <!-- about me -->
+
+     <p class="title">a short story about me</p>
+
+         
+    <div class="about-hero">
+   
+        <div class="my-profil">
+            <div>
+            <img class="my-profil-image" src="images/myProfile.png" alt="">
+            <div class="absolute-rounded-div">
+             <p class="greeting">Hi, Im <span> Chaimae </span></p></div>
+           </div>
+          
+        </div>
+         
+         
+        <div class="my-story">
+            <div>when i was 14 years old, I found my passion and purpose.
+           in 2023 i becaume a studente in lm6e high school.but The hallways of LM6E were not adorned with inspiration, and the
+          monotony of routine threatened to stifle my dreams. with   determination to
+           rise above circumstances,I discovered solace in the world of design and coding. The classrooms 
+            failed to captivate my imagination ,were transformed into spaces  
+          of lines of code and the canvas of digital design .</div>
+            
+          <div>
+            my mind always busy envisioning 
+            a future where creativity knew no bounds. The love for design and coding became my refuge
+             that bloomed amidst the concrete walls of LM6E. Late nights turned into coding sessions, and free periods 
+            became opportunities to sketch and ideate. On this website, I invite you into my world. 
+            <span class="span1">the world of a future web <span class="span2">&</span>app designer.</span>
+        </div>
+          
+
+         
+        
+        </div>
+
+       
+       
+    </div>
+    <div class="slider">
+     <div class="profil-icons">
+            <i class="fa-brands fa-facebook icons"></i>
+            <i class="fa-brands fa-instagram icons"></i>
+            <i class="fa-brands fa-linkedin icons"></i>
+            <i class="fa-brands fa-twitter icons"></i>
+            <i class="fa-brands fa-github icons"></i>
+
+     </div>
+    </div>
+     
+
+
+    <!-- about class -->
+        <div class="our-class">
+           
+        </div>
+
+        
+<script>
+
+    // Function to clone and append icons
+    function cloneIcons() {
+        const originalIcons = document.querySelector('.profil-icons');
+        const slider = document.querySelector('.slider');
+
+        for (let i = 0; i < 14; i++) {
+            const clone = originalIcons.cloneNode(true);
+            slider.appendChild(clone);
+        }
+    }
+
+    // Execute the function on page load
+    document.addEventListener('DOMContentLoaded', function () {
+        cloneIcons();
+    });
+</script>
+
+</body>
+</html>
